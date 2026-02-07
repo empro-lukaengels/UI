@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular/shared-lib": ["libs/ui/angular-shared-lib/src/public-api.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

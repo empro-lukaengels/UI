@@ -73,31 +73,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h4>{{ title }}</h4>
-          <p>Building the future, one line of code at a time.</p>
-        </div>
-        <div class="footer-section">
-          <h4>Quick Links</h4>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Support</a>
-        </div>
-        <div class="footer-section">
-          <h4>Connect</h4>
-          <a href="#">Twitter</a>
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 {{ title }}. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+  <lib-footer [title]="title"></lib-footer>
 </div>
 
 <router-outlet></router-outlet>

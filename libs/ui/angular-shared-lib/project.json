@@ -1,0 +1,27 @@
+{
+  "name": "@angular/shared-lib",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/ui/angular-shared-lib/src",
+  "prefix": "lib",
+  "targets": {
+    "build": {
+      "executor": "@angular/build:ng-packagr",
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/ui/angular-shared-lib/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/ui/angular-shared-lib/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@angular/build:unit-test",
+      "options": {
+        "tsConfig": "libs/ui/angular-shared-lib/tsconfig.spec.json"
+      }
+    }
+  }
+}
