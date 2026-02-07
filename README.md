@@ -1,4 +1,4 @@
-# EmPro UI
+# Empro UI
 
 A modern web application built with Angular and Nx, featuring a beautiful landing page with responsive design.
 
